@@ -1,0 +1,47 @@
+.footer {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: #595959;
+  color: #ffffff;
+  padding: 40px;
+  &__container {
+    width: 1160px;
+  }
+  &__navigation {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__navigation-list {
+    &-title {
+    }
+    &-item {
+      margin-top: 20px;
+    }
+  }
+  &__line {
+    width: 1100px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-left: 48px;
+  }
+  &__description {
+    &-company {
+      &__info {
+        &-year {
+        }
+        &-city {
+        }
+      }
+      &__name {
+        &-brand {
+        }
+        &-logo {
+        }
+      }
+    }
+    &-developers {
+    }
+  }
+}
