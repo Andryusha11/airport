@@ -32,17 +32,29 @@ const Footer = () => {
           </ul>
           <div className="footer__contacts">
             <div className="footer__contacts-info">
-              <h4 className="contacts-info__title">Aviation reference</h4>
-              <span className="contacts-info__number">+380445004973</span>
+              <h4 className="footer__contacts-info__title">Aviation reference</h4>
+              <span className="footer__contacts-info__number">
+                <b>+38 (044) 500 49 73</b>
+              </span>
             </div>
             <div className="footer__contacts-info">
-              <h4 className="contacts-info__title">Join us</h4>
-              <ul className="contacts-info__list">
-                <li className="contacts-info__list-item">F</li>
-                <li className="contacts-info__list-item">T</li>
-                <li className="contacts-info__list-item">I</li>
-                <li className="contacts-info__list-item">Y</li>
-                <li className="contacts-info__list-item">L</li>
+              <h4 className="footer__contacts-info__title">Join us</h4>
+              <ul className="footer__contacts-info__list">
+                <li className="footer__contacts-info__list-item">
+                  <i className="fa-brands fa-facebook-f"></i>
+                </li>
+                <li className="footer__contacts-info__list-item">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li className="footer__contacts-info__list-item">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li className="footer__contacts-info__list-item">
+                  <i class="fa-brands fa-youtube"></i>
+                </li>
+                <li className="footer__contacts-info__list-item">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </li>
               </ul>
             </div>
           </div>
@@ -50,20 +62,26 @@ const Footer = () => {
         <div className="footer__line"></div>
         <div className="footer__description">
           <div className="footer__description-company">
-            <div className="description-company__info">
-              <span className="description-company__info-year">C 2011-2021</span>
-              <span className="description-company__info-city">Kyiv International Airport</span>
-            </div>
-            <div className="description-company__name">
-              <span className="description-company__name-brand">
-                Part of Ufuture Investment Group
+            <div className="footer__description-company__info">
+              <span className="footer__description-company__info-year">C 2011-2021</span>
+              <br />
+              <span className="footer__description-company__info-city">
+                Kyiv International Airport
               </span>
-              <i className="description-company__name-logo">0</i>
+            </div>
+            <div className="footer__description-company__name">
+              <span className="footer__description-company__name-brand">
+                Part of <b>Ufuture Investment Group</b>
+              </span>
+
+              <span className="footer__description-company__name-logo">U</span>
             </div>
           </div>
           <div className="footer__description-developers">
             <span>Site development</span>
-            <span>smp/solutions</span>
+            <span className="footer__description-developers-name">
+              <b>smp/</b>solutions
+            </span>
           </div>
         </div>
       </div>

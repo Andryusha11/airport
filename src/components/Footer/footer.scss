@@ -19,6 +19,25 @@
       margin-top: 20px;
     }
   }
+  &__contacts {
+    &-info {
+      &__title {
+        margin-bottom: 10px;
+      }
+
+      &__number {
+        font-size: 20px;
+        letter-spacing: 1px;
+      }
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        &-item {
+          font-size: 24px;
+        }
+      }
+    }
+  }
   &__line {
     width: 1100px;
     height: 1px;
@@ -27,21 +46,48 @@
     margin-left: 48px;
   }
   &__description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-left: 48px;
+    margin-top: 20px;
     &-company {
+      display: flex;
+
       &__info {
+        color: #afa7ad;
+        margin-right: 188px;
         &-year {
         }
         &-city {
         }
       }
       &__name {
+        display: flex;
         &-brand {
+          width: 128px;
+          color: #afa7ad;
         }
         &-logo {
+          width: 32px;
+          line-height: 32px;
+          text-align: center;
+          border-radius: 30% 50% 50% 30%;
+          background-color: #ffffff;
+          font-size: 24px;
+          color: #595959;
         }
       }
     }
     &-developers {
+      display: flex;
+      flex-direction: column;
+      color: #afa7ad;
+      margin-right: 10px;
+      &-name {
+        font-size: 16px;
+        color: #ffffff;
+      }
     }
   }
 }
