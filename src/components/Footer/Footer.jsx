@@ -44,16 +44,16 @@ const Footer = () => {
                   <i className="fa-brands fa-facebook-f"></i>
                 </li>
                 <li className="footer__contacts-info__list-item">
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </li>
                 <li className="footer__contacts-info__list-item">
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </li>
                 <li className="footer__contacts-info__list-item">
-                  <i class="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube"></i>
                 </li>
                 <li className="footer__contacts-info__list-item">
-                  <i class="fa-brands fa-linkedin-in"></i>
+                  <i className="fa-brands fa-linkedin-in"></i>
                 </li>
               </ul>
             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="footer__description">
           <div className="footer__description-company">
             <div className="footer__description-company__info">
-              <span className="footer__description-company__info-year">C 2011-2021</span>
+              <span className="footer__description-company__info-year">© 2011-2021</span>
               <br />
               <span className="footer__description-company__info-city">
                 Kyiv International Airport
