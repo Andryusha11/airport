@@ -1,0 +1,24 @@
+.main__content-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &-item {
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    &:nth-child(odd) {
+      background-color: #d7dddb;
+    }
+    &:hover {
+      box-shadow: 0 4px 7px #acacac;
+      cursor: pointer;
+    }
+    &-block {
+      width: 440px;
+      display: flex;
+      justify-content: space-around;
+      padding-left: 32px;
+    }
+  }
+}

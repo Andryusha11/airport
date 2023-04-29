@@ -1,0 +1,14 @@
+.header__logo {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 48px;
+  &-city {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 8px;
+  }
+}

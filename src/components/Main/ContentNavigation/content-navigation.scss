@@ -1,0 +1,12 @@
+.main__content-navigation {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  &-item {
+    width: 440px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+  }
+}

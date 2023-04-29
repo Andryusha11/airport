@@ -1,0 +1,38 @@
+.main__content-buttons {
+  width: 1110px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__content-button {
+  width: 550px;
+  color: #1eb7ee;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.departures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 60px;
+  background-color: #1eb7ee;
+  font-size: 24px;
+  color: #ffffff;
+  border-radius: 50px 50px 0 0;
+  padding-right: 80px;
+}
+.arrivals {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1eb7ee;
+  font-size: 24px;
+  color: #ffffff;
+  border-radius: 50px 50px 0 0;
+  padding-left: 80px;
+}

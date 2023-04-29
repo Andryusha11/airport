@@ -1,0 +1,53 @@
+.main__content-calendar {
+  width: 420px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  &-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1eb7ee;
+    margin-right: 20px;
+
+    &-date {
+      margin-top: 0;
+    }
+    &-input {
+      text-decoration: none;
+    }
+  }
+  &-yesterday {
+    width: 100px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c7b9b9;
+    border-bottom: 2px solid #c7b9b9;
+  }
+  &-today {
+    width: 100px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c7b9b9;
+    border-bottom: 2px solid #c7b9b9;
+  }
+  &-tomorrow {
+    width: 100px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c7b9b9;
+    border-bottom: 2px solid #c7b9b9;
+  }
+}

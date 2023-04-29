@@ -6,31 +6,6 @@
   justify-content: space-around;
   background-color: #1eb7ee;
 
-  &__logo {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    margin-left: 48px;
-    &-city {
-      font-size: 40px;
-      font-weight: bold;
-      letter-spacing: 8px;
-    }
-  }
-
-  &__list {
-    display: flex;
-    align-items: center;
-    &-item {
-      font-size: 20px;
-      font-weight: bold;
-      color: #ffffff;
-      margin-left: 60px;
-    }
-  }
   &__button {
     font-size: 20px;
     font-weight: bold;

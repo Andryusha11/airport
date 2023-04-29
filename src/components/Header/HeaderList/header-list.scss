@@ -1,0 +1,10 @@
+.header__list {
+  display: flex;
+  align-items: center;
+  &-item {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 60px;
+  }
+}
